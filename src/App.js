@@ -49,6 +49,8 @@ function App() {
                             id="comments"
                             name="comments"
                             placeholder="wat vond je van het recept"
+                            rows="4"
+                            cols="50"
                             value={commentValue}
                             onChange={(e) => setCommentValue(e.target.value)}
                         >

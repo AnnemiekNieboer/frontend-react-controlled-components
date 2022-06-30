@@ -1,13 +1,16 @@
 body {
     font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+
+legend {
+    font-weight: 600;
 }
 
 form {
     width: 50%;
     margin: 10px;
 }
-
-
 
 fieldset {
     border: 2px solid lightgrey;
@@ -21,4 +24,19 @@ label, textarea, button {
 
 label {
     margin: 20px 0;
+}
+
+input {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
 }
